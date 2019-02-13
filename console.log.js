@@ -1,0 +1,1 @@
+console.log("Bu fonksiyon yazı yazmaya yarıyor :D consol üzerinde");
