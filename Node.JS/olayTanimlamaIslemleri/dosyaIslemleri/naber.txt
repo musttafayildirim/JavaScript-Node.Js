@@ -1,0 +1,1 @@
+burada yazanlar dosyanın içinde olmalı Bunlar appendfile içerisinden gelen değerler ama bunlar asenkron çalışııyorlar bakalım nolcak

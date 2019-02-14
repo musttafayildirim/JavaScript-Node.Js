@@ -1,0 +1,23 @@
+{
+  "name": "mustafanın-paketleri",
+  "version": "1.0.0",
+  "description": "Bu bir açıklama alanıdır....",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "nodemailer": "^5.1.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
+}
+//Burada kurduğumuz paketlere gelince dependencies altında bulunanları kurmak için konsoldan npm install {paket adı} --save şeklinde kurmamız gerekiyor... Ama bizim
+//development modda da kurmamız gereken paketler olduğu için ve bu paketleri canlıya aldığımızda göndermemek için yapmamız gereken işlem npm install {paket adı} --save-dev  şeklinde yazmaktır
+//bu işlemler bittikten sonra paketlerimini farklı bir dosyanın içerisine eklemek için npm install yazmamız yeterli o bütün paketlerimizi
+//bulacaktır....

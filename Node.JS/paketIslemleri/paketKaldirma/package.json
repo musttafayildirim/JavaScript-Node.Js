@@ -1,0 +1,22 @@
+{
+  "name": "paketKaldirma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mustafa YILDIRIM",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.4.12",
+    "underscore": "^1.9.1"
+  }
+}
+
+/*
+Eğer yüklemiş olduğunuz bir paketi kaldırmak isterseniz npm uninstall {paket adi} şeklinde kullanabilirsiniz
+globalden kaldırmak isterseniz bunun başına sudo npm -g unistall {paket adi } şeklinde yazmanız yeterlidir.
+Paketi kaldırdınız fakat dependencies'ten gitmesini istemiyorsanızda yapmanız gereken şey npm uninstall {paket adı} --no-save demeniz yeterlidir..
+*/
