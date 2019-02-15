@@ -1,0 +1,12 @@
+html
+    head
+        title Merhaba PUG
+    body
+        =name
+        br
+        | #{surname}
+
+        //burada yapılan işlem aslında ikisi içinde aynıdır.. index.js dosyasından render'dan gönderilen iki tane
+            //parametre burada tutulmuştur ikiside farklı gösterimleridir ama aynı işi yaparlar
+        //= direkt kullanıcaksak bu şekilde eğer | bunu kullanmış bundan sonra parametreleri çekeceksek ${parametre adı}
+        //    şeklinde kullanırız....

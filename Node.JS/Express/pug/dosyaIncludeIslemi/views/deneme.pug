@@ -1,0 +1,39 @@
+include header.pug
+br
+| deneme sayfası
+br
+include footer.pug
+
+    hr
+- var degisken = 'Mustafa YILDIRIM';
+-var sayi = 1;
+
+    if !sayi
+        | Sayı değişkeni tanımlı değil
+    else if sayi === 1
+        | Sayi 1 ' dir...
+    else
+        | Sayı 1 değil... :D
+
+
+    hr
+
+    =degisken
+    br
+
+    | Hoş Geldin #{ degisken }
+    br
+    | Veya bu şekilde de kullanılabilir  #{ degisken.toUpperCase()}
+
+
+    | pug ile döngüleri kullanma :D
+    hr
+
+    ul
+        each val in [1, 2, 3, 4, 5]
+            li= val
+
+
+    ul
+        each val, index in ['zero', 'one', 'two']
+            li= index + ': ' + val
